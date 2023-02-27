@@ -1,0 +1,22 @@
+:root {
+  background: hotpink;
+  background-image: conic-gradient(hotpink, deeppink, plum, hotpink);
+  color: black;
+}
+
+:any-link {
+  color: inherit;
+}
+
+::selection {
+  background: black;
+  color: hotpink;
+}
+
+mark {
+  background: hotpink;
+}
+
+em {
+  background: deeppink; 
+}
